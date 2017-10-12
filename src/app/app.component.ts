@@ -4,6 +4,6 @@ import { Observable } from 'rxjs/Observable';
 
 @Component({
    selector: 'my-app',
-   templateUrl: 'templates/home.html'
+   templateUrl: 'templates/component.html'
 })
 export class AppComponent  { }
