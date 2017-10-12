@@ -16,7 +16,7 @@ var AppTechnologies = (function () {
     }
     AppTechnologies.prototype.ngOnInit = function () {
         var _this = this;
-        this._technologyService.getTechnologies().subscribe(function (itechnologies) { return _this.itechnologies = itechnologies; });
+        this._technologyService.getTechnologies().subscribe(function (techStack) { return _this.techStack = techStack; });
     };
     return AppTechnologies;
 }());

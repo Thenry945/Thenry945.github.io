@@ -1,3 +1,7 @@
 <div class="display">
-    Education
+     <div *ngFor = 'let lst of degrees'> 
+        <ul> 
+            <li>{{lst.DegreeLevel}} in {{lst.DegreeName}} at {{lst.University}}</li> 
+        </ul> 
+    </div> 
 </div> 

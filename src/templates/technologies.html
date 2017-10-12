@@ -1,3 +1,7 @@
 <div class="display">
-    Tech Stack
+     <div *ngFor = 'let lst of techStack'> 
+        <ul> 
+            <li>{{lst.Name}} : {{lst.Proficiency}}</li> 
+        </ul> 
+    </div> 
 </div> 

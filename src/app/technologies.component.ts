@@ -12,11 +12,11 @@ import { Observable } from 'rxjs/Observable';
 export class AppTechnologies {
     title: 'Technologies';
     
-    itechnologies: ITechnologies[];
+    techStack: ITechnologies[];
     constructor(private _technologyService: TechnologiesService){}
 
     ngOnInit() : void {
-        this._technologyService.getTechnologies().subscribe(itechnologies => this.itechnologies = itechnologies);
+        this._technologyService.getTechnologies().subscribe(techStack => this.techStack = techStack);
     }
 
 }

@@ -1,3 +1,7 @@
 <div class="display">
-    Contact
+     <div *ngFor = 'let lst of icontacts'> 
+        <ul> 
+            <li>{{lst.Method}} : {{lst.ContactPoint}}</li> 
+        </ul> 
+    </div> 
 </div> 
