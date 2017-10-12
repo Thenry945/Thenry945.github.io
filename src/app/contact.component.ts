@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IContact } from '../interfaces/contact';
-import { ContactService } from './contact.service';
+import { ContactService } from './services/contact.service';
 import { Http , Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 

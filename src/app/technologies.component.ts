@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ITechnologies } from '../interfaces/technologies';
-import { TechnologiesService } from './technologies.service';
+import { TechnologiesService } from './services/technologies.service';
 import { Http , Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 
