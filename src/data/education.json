@@ -1,10 +1,12 @@
 [
     {
         "DegreeName":"Computer Science",
-        "DegreeLevel":"Bachelors of Science"
+        "DegreeLevel":"Bachelors of Science",
+        "University": "University of Missouri - Columbia"
     },
     {
         "DegreeName":"Mathematics",
-        "DegreeLevel":"Minor"
+        "DegreeLevel":"Minor",
+        "University": "University of Missouri - Columbia"
     }
 ]
