@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IEducation } from './education';
+import { IEducation } from '../interfaces/education';
 import { EducationService } from './education.service';
 import { Http , Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';

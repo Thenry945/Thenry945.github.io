@@ -3,7 +3,7 @@ import { Http , Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
-import { IEducation } from './education';
+import { IEducation } from '../interfaces/education';
 
 @Injectable()
 export class EducationService {
