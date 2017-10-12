@@ -7,7 +7,7 @@ import { ITechnologies } from './technologies';
 
 @Injectable()
 export class TechnologiesService {
-   private _technologiesURL='app/technologies.json';
+   private _technologiesURL='data/technologies.json';
    constructor(private _http: Http){}
    
    getTechnologies(): Observable<ITechnologies[]> {

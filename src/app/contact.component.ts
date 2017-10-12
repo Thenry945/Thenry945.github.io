@@ -6,7 +6,7 @@ import { Observable } from 'rxjs/Observable';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'templates/technologies.html',
+    templateUrl: 'templates/contact.html',
     providers: [ContactService]
 })
 export class AppContact {

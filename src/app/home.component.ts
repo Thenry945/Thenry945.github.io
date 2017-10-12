@@ -6,4 +6,4 @@ import { Observable } from 'rxjs/Observable';
    selector: 'my-app',
    templateUrl: 'templates/home.html'
 })
-export class AppComponent  { }
+export class AppHome  { }

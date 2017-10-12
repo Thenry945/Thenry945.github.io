@@ -13,24 +13,24 @@ var http_1 = require("@angular/http");
 var Observable_1 = require("rxjs/Observable");
 require("rxjs/add/operator/map");
 require("rxjs/add/operator/do");
-var TechnologiesService = (function () {
-    function TechnologiesService(_http) {
+var EducationService = (function () {
+    function EducationService(_http) {
         this._http = _http;
-        this._technologiesURL = 'data/technologies.json';
+        this._educationURL = 'data/education.json';
     }
-    TechnologiesService.prototype.getTechnologies = function () {
-        return this._http.get(this._technologiesURL)
+    EducationService.prototype.getDegrees = function () {
+        return this._http.get(this._educationURL)
             .map(function (response) { return response.json(); });
     };
-    TechnologiesService.prototype.handleError = function (error) {
+    EducationService.prototype.handleError = function (error) {
         console.error(error);
         return Observable_1.Observable.throw(error.json().error());
     };
-    return TechnologiesService;
+    return EducationService;
 }());
-TechnologiesService = __decorate([
+EducationService = __decorate([
     core_1.Injectable(),
     __metadata("design:paramtypes", [http_1.Http])
-], TechnologiesService);
-exports.TechnologiesService = TechnologiesService;
-//# sourceMappingURL=technologies.service.js.map
+], EducationService);
+exports.EducationService = EducationService;
+//# sourceMappingURL=education.service.js.map

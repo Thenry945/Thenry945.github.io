@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var AppPageNotFound = (function () {
-    function AppPageNotFound() {
+var AppAbout = (function () {
+    function AppAbout() {
     }
-    return AppPageNotFound;
+    return AppAbout;
 }());
-AppPageNotFound = __decorate([
+AppAbout = __decorate([
     core_1.Component({
         selector: 'my-app',
-        templateUrl: 'templates/404.html'
+        templateUrl: 'templates/about.html',
     })
-], AppPageNotFound);
-exports.AppPageNotFound = AppPageNotFound;
-//# sourceMappingURL=notfound.component.js.map
+], AppAbout);
+exports.AppAbout = AppAbout;
+//# sourceMappingURL=about.component.js.map
