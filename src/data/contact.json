@@ -6,5 +6,9 @@
     {
         "Method":"Email",
         "ContactPoint":"travis@henrichs.cc"
+    },
+    {
+        "Method":"Address",
+        "ContactPoint":"236 Mimosa Ave Swansea, IL"
     }
 ]

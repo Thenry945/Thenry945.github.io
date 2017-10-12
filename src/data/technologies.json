@@ -1,10 +1,50 @@
 [
     {
-        "Name":"",
-        "Proficiency":""
+        "Name":"Java",
+        "Proficiency":"8"
     },
     {
-        "Name":"",
-        "Proficiency":""
+        "Name":"Javascript",
+        "Proficiency":"7"
+    },
+    {
+        "Name":"PHP",
+        "Proficiency":"9"
+    },
+    {
+        "Name":"MySQL",
+        "Proficiency":"9"
+    },
+    {
+        "Name":"PostgreSQL",
+        "Proficiency":"6"
+    },
+    {
+        "Name":"Node JS",
+        "Proficiency":"7"
+    },
+    {
+        "Name":"Angular 2",
+        "Proficiency":"4"
+    },
+    {
+        "Name":"Bootstrap",
+        "Proficiency":"6"
+    },
+    {
+        "Name":"Ruby on Rails",
+        "Proficiency":"3"
+    },
+    {
+        "Name":"C",
+        "Proficiency":"6"
+    },
+    {
+        "Name":"Object Oriented Design",
+        "Proficiency":"8"
+    },
+    {
+        "Name":"RESTful API Architecture",
+        "Proficiency":"8"
     }
 ]
