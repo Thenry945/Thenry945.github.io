@@ -3,3 +3,17 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
 }
+
+html {
+    background-color: lightgray;
+}
+
+.display {
+  margin-top: 4em;
+  margin-left: initial;
+  background-color: lightgray
+}
+
+.players {
+  background-image: 'app/Images/boards.jpg'
+}
