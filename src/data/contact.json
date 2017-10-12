@@ -1,14 +1,17 @@
 [
     {
         "Method":"Cellphone",
-        "ContactPoint":"(618)-363-2890"
+        "ContactPoint":"(618)-363-2890",
+        "sprite":"sprite-Phone"
     },
     {
         "Method":"Email",
-        "ContactPoint":"travis@henrichs.cc"
+        "ContactPoint":"travis@henrichs.cc",
+        "sprite":"sprite-Email"
     },
     {
         "Method":"Address",
-        "ContactPoint":"236 Mimosa Ave Swansea, IL"
+        "ContactPoint":"236 Mimosa Ave Swansea, IL",
+        "sprite":"sprite-Address"        
     }
 ]
