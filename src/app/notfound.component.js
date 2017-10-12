@@ -14,7 +14,7 @@ var AppPageNotFound = (function () {
 AppPageNotFound = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: 'PAGE NOT FOUND'
+        templateUrl: 'templates/404.html'
     })
 ], AppPageNotFound);
 exports.AppPageNotFound = AppPageNotFound;
