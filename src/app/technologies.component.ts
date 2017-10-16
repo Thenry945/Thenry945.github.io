@@ -16,7 +16,7 @@ export class AppTechnologies {
     constructor(private _technologyService: TechnologiesService){}
 
     ngOnInit() : void {
-        this._technologyService.getTechnologies().subscribe(techStack => this.techStack = techStack);
+        this._technologyService.getTechnologies().subscribe(techStack => this.techStack = techStack.sort(function(a,b){return b.Proficiency-a.Proficiency}));
     }
 
 }

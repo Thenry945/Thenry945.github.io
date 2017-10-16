@@ -3,7 +3,7 @@ import { Http , Response } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/do';
-import { IContact } from '../interfaces/contact';
+import { IContact } from '../../interfaces/contact';
 
 @Injectable()
 export class ContactService {
