@@ -55,3 +55,13 @@ html {
   height: 50px;
   background-position: -5px -125px;
 }
+
+.center {
+  width: 35%;
+  margin-left: 25%;
+  margin-top: 5%; 
+}
+
+.center-image {
+  margin-left: 38%;
+}
